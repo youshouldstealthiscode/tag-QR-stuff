@@ -20,10 +20,10 @@ def create_qrcode(data):
     # Create an image from the QR code object
     img = qr.make_image(fill_color="black", back_color="white")
     # Save the QR code image as a PDF file to the specified file path
-    img.save('/Users/joesmbp/My Drive/MyInfoSmallQR.pdf', "PDF")
+    img.save('/YOUR/FILEPATH/HERE/MyInfoSmallQR.pdf', "PDF")
 
 # Define personal information variables
-name = "Your Name"  # User's name
+name = "Property Of: Your Name"  # User's name
 phone = "tel:+1234567890"  # User's phone number in tel URI format
 email = "mailto:email@example.com"  # User's email address in mailto URI format
 whatsapp_url = "https://wa.me/1234567890"  # User's WhatsApp URL
